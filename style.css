@@ -1,0 +1,481 @@
+ .all{
+     font-family: 'Noto Sans JP', sans-serif;
+ }
+/*topページ*/
+
+/*top body*/
+.bodybgimg {100px
+    padding-bottom: 28px;
+    padding-top: 15px;
+    background-image: url("img/top-hero.png");
+    background-size:auto ;
+    background-position: right 0;
+    background-repeat: no-repeat;
+    padding-left: 60px;
+}
+/*topページヘッダー下余白*/
+.top-margin{
+    margin-top: 130px;
+}
+/*topページ黒ロゴ下余白*/
+.top-logobottom-margin{
+    margin-bottom:30px;
+}
+/*topページ余白*/
+.footer-margin{
+    margin-top:100px;
+}
+
+/*topページfooterfont*/
+ .footer-font{
+    color: #888;
+    font-size: 10px;
+    max-width: 512px;
+}
+
+/*学割ページ*/
+
+/*背景*/
+.gakuwariback{
+    background-color: #f79314;
+    padding-top:30px;
+    padding-left: 60px;
+    padding-right: 60px;
+    color: white;
+}
+/*学割ページ余白設定*/
+.gakuwari-imgbottom{
+    padding-top:40px;
+}
+
+.gawakuri-about-margin{ 
+    margin:50px 00px 00px 200px;
+}
+
+/*特徴ページ*/
+
+/*特徴ページ余白*/
+.info-margin{
+    margin:
+    70px 30px 70px 30px; }
+
+/*特徴ページオレンジ棒上下余白*/
+.orange-boder-padding{
+    padding-top:10px;
+    padding-bottom:15px;
+}
+
+/*特徴ページ大枠box*/
+.box1 {
+    padding: 0.5em 1em;
+    font-weight: bold;
+    color: black;
+    background-color: #fcfaf5;
+    border-radius: 30px;
+    margin: 50px 10px 15px 10px;
+}
+
+/*特徴ページ小枠box*/
+.box2 {
+    padding: 20px 20px 0px 30px;
+    margin: 50px 25px 30px 25px;
+    font-weight: bold;
+    color: black;/*文字色*/
+    background: #FFF;
+    border-radius: 30px;/*角の丸み*/
+}
+/*特徴ページ03小枠box*/
+.box3 {
+    padding: 20px 30px 20px 30px;
+    margin: 50px 15px 20px 15px;
+    font-weight: bold;
+    color: black;/*文字色*/
+    background: #FFF;
+    border-radius: 15px;/*角の丸み*/
+    width:250px;
+    
+}
+
+/*特徴ページ03内吹き出し付きbox*/
+
+   .box4 {
+    position: relative;
+    padding: 0.5em 0.7em;
+    margin: 2em 0;
+    background: #f5f5f5;
+    color: black;
+    font-weight: bold;
+    border-radius: 10px;
+    width:250px;
+}
+.box4:after {
+    position: absolute;
+    content: '';
+    top: 100%;
+    left: 30px;
+    border: 15px solid transparent;
+    border-top: 15px solid #f5f5f5;
+    width: 30;
+    height: 0;
+}
+.box4 p {
+    margin: 0; 
+    padding: 0;
+}
+
+
+
+/*特徴ページ03小枠box間空白*/
+.box2-padding{
+    padding:20px 30px 20px 30px;
+}
+
+ /*特徴ページ03小枠box余白*/
+ .box-comlogo-padding{
+     margin:55px 30px 40px 30px;
+ }
+ 
+ .box-comlogo-padding02{
+     margin:0px 30px 40px 30px;
+ }
+ 
+ .box-comlogo-padding03{
+     margin:40px 30px 40px 30px;
+ }
+ 
+.box-face-padding{
+     margin:20px 0px 0px 0px;
+ }
+ 
+ /*コース説明ページ*/
+ /*コース説明ページ背景*/
+  .main-section {
+    background-color:#f5f5f5;
+    background-image: url(img/section-top-course.png);
+    background-position: right 90px top 30px;
+    background-repeat: no-repeat;
+    margin: 50px 0px 90px 0px;
+    padding-bottom:90px;
+    background-size:300px 300px;
+ }
+    
+
+/*選べるコースページbox*/
+    .boxcourse {
+    padding: 35px 0px 35px 270px;
+    margin: 30px 30px 15px 30px;
+    font-weight: bold;
+    color: black;/*文字色*/
+    background: #FFF;
+    width:auto;
+}
+    
+/*コース説明グラデーションボックス01*/
+.gradBox1{
+  width: 300px;
+  height: auto;
+  padding: 0;
+  margin-left:-290px;
+  text-align: center;
+  border-left: 3px solid #ff5f6d;
+  border-right: 3px solid #f79314;
+}
+
+.gradBox1::before,
+.gradBox1::after{
+  content: "";
+  display: block;
+  height: 3px;
+  background: linear-gradient(to right, #ff5f6d 0%, #f79314 100%);
+}
+
+/*コース説明グラーデンションボックス02*/
+.gradBox2{
+  width: 300px;
+  height: auto;
+  padding: 0;
+  margin-left:-290px;
+  text-align: center;
+  border-left: 3px solid #f79314;
+  border-right: 3px solid #ff5f6d;
+}
+
+.gradBox2::before,
+.gradBox2::after{
+  content: "";
+  display: block;
+  height: 3px;
+  background: linear-gradient(to right, #f79314 0%, #ff5f6d 100%);
+}
+
+.a{
+    padding-left: 30px;
+}
+
+.link-padding{
+    padding:50px 0px 50px 0px;
+}
+
+
+
+
+    
+/*サービス紹介ページbox*/
+.box26 {
+    position: relative;
+    margin: 25px 320px 50px 10px;
+    padding: 50px 150px 20px 40px;
+    width:535px;
+    background :white;
+}
+.box26 .box-title {
+    position: absolute;
+    display: inline-block;
+    top: -20px;
+    left: 10px;
+    padding: 0 9px;
+    line-height: 1;
+    font-size: 50px;
+    
+    color: #f79314;
+    font-weight: bold;
+}
+.box26 p {
+    margin: 0; 
+    padding: 0;
+}
+
+.service-bg{
+   background-color:#fcfaf5;
+    color: black;  
+}
+/*位置決め用*/
+.img-float-r{
+    float: right;
+}
+
+.img-float-l{
+    float: left
+}
+
+.menu{
+  display: flex;
+}
+
+/*リンクボタン*/
+/*topカウンセリングリンクボタン1*/    
+ .link-button-topcontact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    background-color:#f79314;
+    border-radius: 30px;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    font-weight: bold;
+    width: 175px;
+    height: 45px;
+    font-size: 12px;
+    border: none;
+ } 
+/*topカウンセリングリンクボタン2*/     
+.link-button-topcontact2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    background-color:#f79314;
+    border-radius: 30px;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    font-weight: bold;
+    width: 350px;
+    height: 60px;
+    font-size: 16px;
+    border: none;
+    
+} 
+/*リンクボタン学割ページABOUT*/
+.link-button-about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #f79314;
+    background-color: white;
+    border-radius: 30px;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    font-weight: bold;
+    width: 320px;
+    height: 65px;
+    font-size: 20px;
+    border: none;
+}    
+ /*コース説明ページ応募条件ボタン*/
+.link-button-about2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    background-color: black;
+    border-radius: 35px;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    font-weight: bold;
+    width: 100px;
+    height: 27px;
+    font-size: 15px;
+    border: none;
+    margin:10px 0px 9px 0px;
+}  
+/*   コース、インタビューリンクボタン*/
+  .link-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    background-color: #f79314;
+    border-radius: 30px;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    font-weight: bold;
+    width: 300px;
+    height: 50px;
+   
+    border: none;
+    margin: 50px auto 50px auto;
+}   
+
+
+.box31 {
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    font-weight: bold;
+    color: #6091d3;/*文字色*/
+    background: #FFF;
+    border: solid 3px #6091d3;/*線*/
+    border-radius: 10px;/*角の丸み*/
+        float:left;
+}
+.box31 p {
+    margin: 0; 
+    padding: 0;
+}
+
+    
+
+
+/*display*/
+.block_sampleC {
+    display: inline-block;}
+    
+.block_inline {
+   display: inline; }
+
+.block{
+    display: block; 
+}
+
+
+
+
+
+    
+    .flow_item {
+    width: 20px;
+}
+/*受講生の声ページ配置用*/
+.parent {
+    max-width: 90%;
+    margin: 0 auto;
+ 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+/*受講生の声ページbox*/ 
+.child {
+    flex-grow: 1;
+ 
+
+    padding: 5px;
+    margin: 0 5px;
+}
+.child p {
+    text-align: center;
+    line-height: 1.4rem;
+    font-weight: bold;
+    padding: 10px;
+}
+ 
+ 
+/*受講生の声ページ*/
+.child-center img {
+    max-width: 100%;
+    height: auto;
+}
+
+ /*受講者の声ページテキスト用box*/
+.box99{
+    color: black;
+    width:300px;
+    height:200px;
+}
+
+.voice-padding{
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+/*ポテパンインフォメーションページ画像外枠*/
+.img1 {
+border: 2px #fc6803 solid;
+border-radius: 10px;
+background-color: white;
+width:400px;
+height:150px;
+}
+
+.img2 {
+border: 2px #08af77 solid;
+border-radius: 10px;
+background-color: white;
+width:400px;
+height:150px;
+}
+
+.img4 {
+border: 2px #000 solid;
+border-radius: 10px;
+background-color: white;
+width:400px;
+height:150px;
+}
+
+.footer-bg{
+    background-color:#f79314;
+    color: white;
+}
+
+.box22{
+  
+    margin: 50px 25px 30px 25px;
+    font-weight: bold;
+    color: black;/
+}
+
+P.imgSize img {
+    width: 50%;
+}
+
+P.imgSize img2{
+    width: 10%;
+}
